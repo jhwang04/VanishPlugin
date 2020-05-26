@@ -1,0 +1,19 @@
+name: VanishPlugin
+main: com.justinhwang.vanishplugin.VanishPlugin
+version: 1.0.0
+api-version: 1.15
+author: jhwang04
+depend:
+  - LuckPerms
+commands:
+  vanishplugin:
+    description: Enable/disable the vanishing plugin
+  vanish:
+    description: Makes the specified player fully disappear/reappear
+    aliases:
+      - disappear
+      - invis
+      - invisible
+      - unvanish
+      - appear
+      - reappear
